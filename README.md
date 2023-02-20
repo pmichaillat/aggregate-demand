@@ -1,6 +1,6 @@
-# Code & Data for "Aggregate Demand, Idle Time, and Unemployment"
+# Aggregate Demand, Idle Time, and Unemployment: Code and Data
 
-This repository contains the code and data associated with the article ["Aggregate Demand, Idle Time, and Unemployment"](https://www.pascalmichaillat.org/3.html), written by [Pascal Michaillat](https://www.pascalmichaillat.org) and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published in the [Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjv006) in May 2015.
+This repository contains the code and data accompanying the article ["Aggregate Demand, Idle Time, and Unemployment"](https://pascalmichaillat.org/3/), written by [Pascal Michaillat](https://pascalmichaillat.org) and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published in the [Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjv006) in May 2015.
 
 ## Data
 
@@ -17,8 +17,8 @@ The data are stored in two Excel workbooks:
 
 * `cyclical_components.xlsx` contains the cyclical components of product market tightness, labor market tightness, output, and employment for the United States. The cyclical components are computed by the program `construct_cyclical_components.m` from the raw data in `data.xlsx`. Our exploration of the sources of unemployment fluctuations in the United States relies on these cyclical components. This workbook contains two worksheets:
 
-	- `1973--2013` contains the cyclical components of labor market tightness, output, and employment. It also contains the proxy for the cyclical component of product market tightness constructed using the capacity utilization rate in the manufacturing sector measured by the Census Bureau from the Survey of Plant Capacity. These four cyclical components are available at quarterly frequency from 1973:Q4 to 2013:Q2.
-	- `1999--2013` contains the cyclical components of labor market tightness, output, and employment. It also contains the proxy for the cyclical component of product market tightness constructed using the capacity utilization rate in the manufacturing sector measured by the Census Bureau from the Survey of Plant Capacity. Last, it contains the proxy for the cyclical component of product market tightness constructed using the operating rate in non-manufacturing sectors measured by the Institute for Supply Management. These five cyclical components are available at quarterly frequency from 1999:Q4 to 2013:Q2.
+	- `1973–2013` contains the cyclical components of labor market tightness, output, and employment. It also contains the proxy for the cyclical component of product market tightness constructed using the capacity utilization rate in the manufacturing sector measured by the Census Bureau from the Survey of Plant Capacity. These four cyclical components are available at quarterly frequency from 1973:Q4 to 2013:Q2.
+	- `1999–2013` contains the cyclical components of labor market tightness, output, and employment. It also contains the proxy for the cyclical component of product market tightness constructed using the capacity utilization rate in the manufacturing sector measured by the Census Bureau from the Survey of Plant Capacity. Last, it contains the proxy for the cyclical component of product market tightness constructed using the operating rate in non-manufacturing sectors measured by the Institute for Supply Management. These five cyclical components are available at quarterly frequency from 1999:Q4 to 2013:Q2.
 
 ## Code
 
@@ -34,6 +34,10 @@ The results are produced with Matlab code.
 	- Figure A3
 * The function `quarter.m` transforms a monthly time series into a quarterly time series.
 
-## Software versions
+## Software
 
 The results were obtained on a Mac running OS X Yosemite with Matlab R2014b.
+
+## License
+
+The content of this repository is licensed under the terms of the MIT License.
