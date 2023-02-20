@@ -25,7 +25,7 @@ The data are stored in two Excel workbooks:
 The results are produced with Matlab code.
 
 * The script `construct_cyclical_components.m` uses the raw data in `data.xlsx` to produce the cyclical components of product market tightness, labor market tightness, output, and employment. The resulting cyclical components are stored in `cyclical_components.xlsx`.
-* The script `plot_figures.m` uses the data in `data.xlsx` and `cyclical_components.xlsx` to produce several figures from the article and online appendices:
+* The script `plot_figures.m` uses the data in `data.xlsx` and `cyclical_components.xlsx` to produce several figures from the article and online appendix:
 	- Figures II
 	- Figure VIII
 	- Figure IX
