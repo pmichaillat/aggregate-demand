@@ -1,6 +1,10 @@
 # Aggregate Demand, Idle Time, and Unemployment: Code and Data
 
-This repository contains the code and data accompanying the article ["Aggregate Demand, Idle Time, and Unemployment"](https://pascalmichaillat.org/3/), written by [Pascal Michaillat](https://pascalmichaillat.org) and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published in the [Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjv006) in May 2015.
+This repository contains the code and data accompanying the PAPER "Aggregate Demand, Idle Time, and Unemployment", written by [Pascal Michaillat](https://pascalmichaillat.org) and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published in the [Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjv006) in May 2015.
+
+## Paper webpage
+
+The paper and its online appendix are available at https://pascalmichaillat.org/3/.
 
 ## Data
 
