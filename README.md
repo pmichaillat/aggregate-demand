@@ -1,6 +1,6 @@
 # Aggregate Demand, Idle Time, and Unemployment: Code and Data
 
-This repository contains the code and data accompanying the PAPER "Aggregate Demand, Idle Time, and Unemployment", written by [Pascal Michaillat](https://pascalmichaillat.org) and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published in the [Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjv006) in May 2015.
+This repository contains the code and data accompanying the paper "Aggregate Demand, Idle Time, and Unemployment", written by [Pascal Michaillat](https://pascalmichaillat.org) and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published in the [Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjv006) in May 2015.
 
 ## Paper webpage
 
@@ -23,7 +23,7 @@ The data are stored in two Excel workbooks:
 
 ## Code
 
-The results are produced with Matlab code.
+The results are produced with MATLAB code.
 
 * The script `construct_cyclical_components.m` uses the raw data in `data.xlsx` to produce the cyclical components of product market tightness, labor market tightness, output, and employment. The resulting cyclical components are stored in `cyclical_components.xlsx`.
 * The script `plot_figures.m` uses the data in `data.xlsx` and `cyclical_components.xlsx` to produce several figures from the article and online appendix:
@@ -37,7 +37,7 @@ The results are produced with Matlab code.
 
 ## Software
 
-The results were obtained on a Mac running OS X Yosemite with Matlab R2014b.
+The results were obtained on a Mac running OS X Yosemite with MATLAB R2014b.
 
 ## License
 
