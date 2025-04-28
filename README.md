@@ -41,4 +41,4 @@ The results were obtained on a Mac running OS X Yosemite with MATLAB R2014b.
 
 ## License
 
-The content of this repository is licensed under the terms of the MIT License.
+This repository is licensed under the [MIT License](LICENSE.md).
